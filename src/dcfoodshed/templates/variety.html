@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C //DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xml:lang="en" lang="en"
+      metal:use-macro="master.macros.layout">
+    
+    <div metal:fill-slot="main" class="six_column section main">
+    
+        <div class="four column">
+          <div class="column_content">
+           <h2 tal:content="python:plant.name">Plant Name</h2>
+           <p tal:content="python:plant.description">Plant Description</p>
+          </div>
+        </div>
+        
+        <div class="two column">
+          <div class="column_content">
+           related
+          </div>
+        </div>
+         
+    </div>
+
+</html>

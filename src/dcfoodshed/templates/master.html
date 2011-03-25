@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C //DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xml:lang="en" lang="en"
+      metal:define-macro="layout">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="/css/fluid.gs.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <!--[if lt IE 8]><link rel="stylesheet" href="/css/fluid.gs.lt_ie8.css" type="text/css" media="screen" title="no title" charset="utf-8" /><![endif]-->
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <title>DC Foodshed</title>
+</head>
+<body>
+  <div class="fluid_grid_layout">
+    
+    <div class="six_column section first">
+
+    <div class="five column">
+        <div class="column_content">
+        <h1>DC Foodshed</h1>
+        </div>
+    </div>
+    
+    <div class="one column">
+        <div class="column_content">
+        <p>placeholder</p>
+        </div>
+    </div>
+         
+    </div>
+    
+    <div class="six_column section main" metal:define-slot="main">
+       
+    </div>
+    
+    <div class="six_column section footer">
+
+    <div class="six column">
+        <div class="column_content">
+        <p>This visualization was created by a team of volunteers at the <a href="http://presidentsday-dc-datacamp-estw.eventbrite.com/">Presidents' Day DC DataCamp</a>.</p>
+        </div>
+    </div>
+         
+    </div>
+  </div>
+</body>
+</html>

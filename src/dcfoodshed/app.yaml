@@ -1,0 +1,21 @@
+application: dcfoodshed
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /fonts
+  static_dir: fonts
+  
+- url: /js
+  static_dir: js
+
+- url: .*
+  script: main.py

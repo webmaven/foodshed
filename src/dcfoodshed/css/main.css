@@ -1,0 +1,97 @@
+/* typography */
+
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('/fonts/League_Gothic-webfont.eot');
+	src: local('☺'), url('/fonts/League_Gothic-webfont.woff') format('woff'), url('/fonts/League_Gothic-webfont.ttf') format('truetype'), url('/fonts/League_Gothic-webfont.svg#webfontpm5EArBj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CrimsonTextRoman';
+	src: url('/fonts/crimson_text_roman-webfont.eot');
+	src: local('☺'), url('/fonts/crimson_text_roman-webfont.woff') format('woff'), url('/fonts/crimson_text_roman-webfont.ttf') format('truetype'), url('/fonts/crimson_text_roman-webfont.svg#webfontRVAWpq2N') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font: 18px/27px 'CrimsonTextRoman', Arial, sans-serif;
+    background:#E9DFC3;
+    }
+    
+html > body {font-size: 16px;}
+
+p {margin-bottom:24px;}
+
+a:link {
+    text-decoration:none;
+    color:#0043ef;
+    font-weight:bold;
+    }
+    
+a:hover, a:visited, a:active {
+    text-decoration:none;
+    color:#ef4300;
+    font-weight:bold;
+    }
+    
+a:hover {
+    color:#ef4300;
+    border-bottom:1px solid #ef4300;
+    }
+
+h1 {
+    font: 60px/60px 'LeagueGothicRegular',Arial, sans-serif;
+    text-transform: uppercase;
+    }
+
+h2 {
+    font: 24px/36px 'LeagueGothicRegular',Arial, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    }
+    
+ul, ol {
+    margin-bottom: 18px;
+    }
+
+/* DC Food shed site design */
+
+div.first{
+    background-color: #8C9B4F;
+    color: #fff;
+    }
+
+div.first p {
+    margin:0px;
+    }   
+    
+div.section div.column_content {
+    padding:0.8em;
+    }
+
+div.right {
+    vertical-align: top;
+    }
+
+div.main {
+    background-color: #F5F9EA;
+    }
+    
+div.footer {
+    background-color: #8C9B4F;
+    color: #fff;
+    font-family: 'LeagueGothicRegular',Arial, sans-serif;
+    }
+    
+div.footer a:active, div.footer a:visited, div.footer a:link, div.footer a:hover {
+    color: #ffc;
+    font-weight: normal;
+    border: none;
+    }
+    
+div.footer a:hover {
+    text-decoration: underline;
+    }
