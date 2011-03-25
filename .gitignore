@@ -10,4 +10,5 @@ parts
 bin
 develop-eggs
 var
+downloads
 .installed.cfg
