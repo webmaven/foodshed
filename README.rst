@@ -20,11 +20,11 @@ maintained here:: http://geocommons.com/maps/52950
 Running the application out of the box
 --------------------------------------
 
-Build and run the application (ideally in a Python 2.5 virtualenv)::
+Build and run the application::
 
-  $ python bootstrap.py
+  $ python2.5 bootstrap.py --distribute
   $ ./bin/buildout
-  $ ./bin/dev_appserver parts/dcfoodshed
+  $ ./bin/dev_appserver parts/foodshed
 
 Then access the application using a web browser with the following URL::
 
@@ -36,7 +36,7 @@ Uploading and managing
 
 To upload application files, run::
 
-  $ ./bin/appcfg update parts/dcfoodshed
+  $ ./bin/appcfg update parts/foodshed
 
 For a more detailed documentation follow this url::
 

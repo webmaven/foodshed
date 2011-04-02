@@ -35,7 +35,7 @@ setup(
         ],
     url='',
     packages=find_packages(),
-    package_dir = {'': os.sep.join(['src', 'dcfoodshed'])},
+    package_dir = {'': os.sep.join(['src', 'foodshed'])},
     include_package_data=True,
     install_requires=[
         'bobo',
